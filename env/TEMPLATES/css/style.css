@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffe8cc;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  width: 380px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.front {
+  padding: 25px;
+  text-align: center;
+  background-color: #ff5733;
+  color: white;
+}
+
+.front .img {
+  margin-bottom: 15px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  background: #ffc107;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+.badge {
+  background: #fff;
+  color: #ff5733;
+  padding: 5px 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 0.8em;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.title strong {
+  font-size: 1.2em;
+}
+
+.card-footer {
+  font-size: 0.9em;
+  margin-top: 10px;
+  color: #ffe2d0;
+}
+
+.login {
+  padding: 25px;
+  background-color: #fff;
+}
+
+.login h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login button:hover {
+  background-color: #e2491e;
+}
+
+.login p {
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+.login p a {
+  color: #ff5733;
+  text-decoration: none;
+}
+
+.login p a:hover {
+  text-decoration: underline;
+}
